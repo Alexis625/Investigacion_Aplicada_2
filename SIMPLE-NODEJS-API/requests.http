@@ -1,0 +1,55 @@
+// ver todas las materias de tecnico en ingenieria en computacion
+GET http://localhost:3000/pensum HTTP/1.1
+
+###
+
+// ver todas las materia de ingenieria en ciencias de la computacion 
+GET http://localhost:3000/ingenieria HTTP/1.1
+
+
+###
+//colsultar los prerequisitos de la materia con su codigo del tecnico en computacion
+GET http://localhost:3000/codigos HTTP/1.1
+
+###
+//colsultar los prerequisitos de la materia con su codigo de la ingenieria
+GET http://localhost:3000/codigoss HTTP/1.1
+
+###
+//consultar materias por ciclo de tecnico en ingenieria en computacion
+GET http://localhost:3000/materias/ciclo/1 HTTP/1.1
+###
+
+GET http://localhost:3000/materias/ciclo/2 HTTP/1.1
+
+###
+//consultar materias por ciclo de ingenieria en computacion 
+GET http://localhost:3000/materias/cicloi/1 HTTP/1.1
+
+###
+//consultar materias por ciclo de ingenieria en computacion
+GET http://localhost:3000/materias/cicloi/2 HTTP/1.1
+
+
+###
+// para incribir una materia en la parte ["ALG101","ANF102","LME103","PAL104"] debemos agregar nuestras materias 
+POST http://localhost:3000/inscribir-varias-materias/pensum HTTP/1.1
+Content-Type: application/json
+
+{
+  "materias": ["ALG101","ANF102","LME103","PAL104"]
+}
+
+###
+/// inscribir materias para ingenieria 
+// para incribir una materia en la parte ["CAD101", "QUG102", "PRE104", "ANF103"] debemos agregar nuestras materias 
+POST http://localhost:3000/inscribir-varias-materias/ingenieria HTTP/1.1
+Content-Type: application/json
+
+{
+  "materias": ["CAD101", "QUG102", "PRE104", "ANF103"]
+}
+
+###
+// Para elimina en la parte final debemos agregrar el codigo de la materia ejemplo /ALG101 
+DELETE http://localhost:3000/eliminar-inscripcion/ALG101

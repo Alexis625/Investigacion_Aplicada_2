@@ -1,0 +1,183 @@
+{
+  "pensum": [
+    {
+      "ciclo": 1,
+      "codigo": "ALG101",
+      "nombre": "Algebra vectorial y matrices",
+      "uv": 4,
+      "prerrequisitos": "0",
+      "inscrita": false
+    },
+    {
+      "ciclo": 1,
+      "codigo": "ANF102",
+      "nombre": "Antropologia Filosofica",
+      "uv": 3,
+      "prerrequisitos": "0",
+      "inscrita": false
+    },
+    {
+      "ciclo": 1,
+      "codigo": "LME103",
+      "nombre": "Lenguaje de Mercado y Estilo Web",
+      "uv": 4,
+      "prerrequisitos": "0",
+      "inscrita": false
+    },
+    {
+      "ciclo": 1,
+      "codigo": "PAL104",
+      "nombre": "Programacion de algoritmo",
+      "creditos": 4,
+      "prerrequisitos": "0",
+      "inscrita": false
+    },
+    {
+      "ciclo": 1,
+      "codigo": "REC105",
+      "nombre": "Redes de Comunicacion",
+      "creditos": 4,
+      "prerrequisitos": "0",
+      "inscrita": false
+    },
+    {
+      "ciclo": 2,
+      "codigo": "ASB106",
+      "nombre": "Analisis y Diseño de sistemas y Base de datos",
+      "creditos": 4,
+      "prerrequisitos": [
+        "PAL104"
+      ],
+      "inscrita": false
+    },
+    {
+      "ciclo": 2,
+      "codigo": "DAW107",
+      "nombre": "Desarrollo de Aplic. Web con Soft. Interpret. en el Cliente",
+      "creditos": 4,
+      "prerrequisitos": [
+        "LME103"
+      ],
+      "inscrita": false
+    },
+    {
+      "ciclo": 2,
+      "codigo": "DSP108",
+      "nombre": "Desarrollo de Aplicaciones con Software Propietario",
+      "creditos": 4,
+      "prerrequisitos": [
+        "PAL104"
+      ],
+      "inscrita": false
+    },
+    {
+      "ciclo": 2,
+      "codigo": "POO109",
+      "nombre": "Programación Orientada a Objetos",
+      "creditos": 4,
+      "prerrequisitos": [
+        "PAL104"
+      ],
+      "inscrita": false
+    },
+    {
+      "ciclo": 2,
+      "codigo": "PSC110",
+      "nombre": "Pensamiento Social Cristiano",
+      "creditos": 3,
+      "prerrequisitos": "0",
+      "inscrita": false
+    }
+  ],
+  "ingenieria": [
+    {
+      "cicloi": 1,
+      "codigo1": "CAD101",
+      "nombre": "Calculo diferencial",
+      "uv": 4,
+      "prerrequisitoss": "0",
+      "inscrita": false
+    },
+    {
+      "cicloi": 1,
+      "codigo1": "QUG102",
+      "nombre": "Quimica General",
+      "uv": 4,
+      "prerrequisitoss": "0",
+      "inscrita": false
+    },
+    {
+      "cicloi": 1,
+      "codigo1": "ANF103",
+      "nombre": "Antropologia Filosofica",
+      "uv": 3,
+      "prerrequisitoss": "0",
+      "inscrita": false
+    },
+    {
+      "cicloi": 1,
+      "codigo1": "PRE104",
+      "nombre": "Programacion Estructurada",
+      "uv": 4,
+      "prerrequisitoss": "0",
+      "inscrita": false
+    },
+    {
+      "cicloi": 1,
+      "codigo1": "PSCG105",
+      "nombre": "Pensamiento Social Cristiano",
+      "uv": 3,
+      "prerrequisitoss": "0",
+      "inscrita": false
+    },
+    {
+      "cicloi": 2,
+      "codigo1": "ALG106",
+      "nombre": "Algebra vectorial y matrices",
+      "uv": 4,
+      "prerrequisitoss": "0",
+      "inscrita": false
+    },
+    {
+      "cicloi": 2,
+      "codigo1": "CAI107",
+      "nombre": "Calculo Integral",
+      "uv": 4,
+      "prerrequisitoss": [
+        "CAD104"
+      ],
+      "inscrita": false
+    },
+    {
+      "cicloi": 2,
+      "codigo1": "MDB108",
+      "nombre": "Modelamiento y diseño de Base de Datos",
+      "uv": 4,
+      "prerrequisitoss": [
+        "PRE104"
+      ],
+      "inscrita": false
+    },
+    {
+      "cicloi": 2,
+      "codigo1": "POO109",
+      "nombre": "Programación Orientada a Objetos",
+      "uv": 4,
+      "prerrequisitoss": [
+        "PRE104"
+      ],
+      "inscrita": false
+    },
+    {
+      "cicloi": 2,
+      "codigo1": "ADS110",
+      "nombre": "Analisis y diseño de Sistemas Informaticos",
+      "uv": 4,
+      "prerrequisitoss": [
+        "PRE104"
+      ],
+      "inscrita": false
+    }
+  ],
+  "materiasInscritas": []
+}
